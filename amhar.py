@@ -3,10 +3,8 @@
 import os, fileinput
 
 file = open('al.txt') # таблица значений
-M = []
-dic = {}
-syllable = ''
-letter = ''
+dr = {}
+ar = []
 
 for line in file: ### обходим файл
     line = line.strip('\n') # убрать переносы
