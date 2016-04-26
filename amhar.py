@@ -26,6 +26,6 @@ def transliterate(string):
 
 
 
-with fileinput.FileInput('text.txt', inplace=True, backup='.bak') as file:
+with fileinput.FileInput('texta.txt', inplace=True, backup='.bak') as file:
     for line in file:
         print(transliterate(line), end='')
